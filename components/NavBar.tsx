@@ -34,8 +34,9 @@ const NavBar: React.FC = () => (
     <NavItem href="/" mr="auto">
       <OONILogo height={32} />
     </NavItem>
-    <NavItem href="/login">Login</NavItem>
-    <NavItem href="/logout"> Logout </NavItem>
+    <NavItem href="/register"> Regsiter </NavItem>
+    {/* <NavItem href="/login">Login</NavItem> */}
+    {/* <NavItem href="/logout"> Logout </NavItem> */}
   </Flex>
 )
 
